@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T03:49:24.294Z",
+        "line": 4,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "test-calculator;addition-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 897200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 40 in the calculator",
+            "match": {
+              "location": "Addstepdef.I_enter_20_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "Addstepdef.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "location": "Addstepdef.Again_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal",
+            "match": {
+              "location": "Addstepdef.Equal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 40 on the screen",
+            "match": {
+              "location": "Addstepdef.Result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "This file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Package2/Add.feature",
+    "tags": []
+  }
+]
